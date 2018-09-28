@@ -8,12 +8,12 @@
     background-color: #253141;
     padding: 20px;
     line-height: 100px;
-    .header__element{
+    &__element{
       display: inline-block;
       font-size: 16px;
       font-weight: bold;
     }
-    .header__lists{
+    &__lists{
       display: inline-block;
       float: right;
       .list {
@@ -33,10 +33,10 @@
     .group {
       box-sizing: border-box;
       padding: 20px 0 40px;
-      .group__name {
+      &__name {
         font-size: 15px;
       }
-      .group__message {
+      &__message {
         font-size: 11px;
         margin-top: 5px;
       }

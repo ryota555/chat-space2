@@ -3,56 +3,56 @@
   %head
     %meta{charset: "utf-8"}
   %body
-    %div{class: "side_bar"}
-      %div{class: "header"}
-        %h1{class: "header__element"}
+    .side_bar
+      .header
+        %h1.header__element
           ryota
-        %ul{class: "header__lists"}
-          %li{class: "list"}
+        %ul.header__lists
+          %li.list
             =link_to do
               =fa_icon 'pencil-square-o', class: 'icon'
-          %li{class: "list"}
+          %li.list
             =link_to do
               =fa_icon 'cog', class: 'icon'
-      %div{class: "groups"}
-        %div{class: "group"}
-          %div{class: "group__name"}
+      .groups
+        .group
+          .group__name
             Ryota_chat
-          %div{class: "group__message"}
+          .group__message
             ヤッホー
-        %div{class: "group"}
-          %div{class: "group__name"}
+        .group
+          .group__name
             Ryota_TV
-          %div{class: "group__message"}
+          .group__message
             良かった
 
-    %div{class: "content"}
-      %div{class: "upper"}
-        %div{class: "team"}
-          %div{class: "team__name"}
+    .content
+      .upper
+        .team
+          .team__name
             Ryota_chat
-          %div{class: "team__member"}
+          .team__member
             MEMBER: ryota,keita
-        %div{class: "edit"}
-          %div{class: "edit__button"}
+        .edit
+          .edit__button
             Edit
-      %div{class: "chats"}
-        %div{class: "chat"}
-          %div{class: "chat__name"}
+      .chats
+        .chat
+          .chat__name
             keita
-          %div{class: "chat__message"}
+          .chat__message
             お久しぶり
-        %div{class: "chat"}
-          %div{class: "chat__name"}
+        .chat
+          .chat__name
             ryota
-          %div{class: "chat__message"}
+          .chat__message
             ヤッホー
-      %div{class: "form"}
+      .form
         %form
-          %input{class: "form__message", placeholder: "type a txet"}
-          %div{class: "form__mask"}
-            %label{class: "form__mask__image"}
+          %input.form__message{placeholder: "type a txet"}
+          %div.form__mask
+            %label.form__mask__image
               = fa_icon 'picture-o', class: 'icon'
               %input.hidden{type: 'file'}
-          %button{class: "form__button"}SEND
+          %button.form__button SEND
 

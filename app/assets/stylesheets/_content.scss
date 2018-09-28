@@ -10,11 +10,11 @@
     border-bottom: 1px solid #eeeeee;
     .team {
       margin-right: 40px;
-      .team__name {
+      &__name {
         font-size: 20px;
         margin-top: 35px;
       }
-      .team__member{
+      &__member{
         font-size: 12px;
         margin-top: 15px;
       }
@@ -37,11 +37,11 @@
     .chat {
       height: 80px;
       padding-left: 20px;
-      .chat__name {
+      &__name {
         font-size: 16px;
         padding-top: 46px;
       }
-      .chat__message {
+      &__message {
         font-size: 14px;
         margin-top: 10px;
         margin-bottom: 40px;
@@ -53,19 +53,19 @@
     background-color: gray;
     box-sizing: border-box;
     padding: 20px 50px 20px 40px;
-    .form__message{
+    &__message{
       float: left;
       font-size: 16px;
       color: #434A54;
       height: 50px;
       width: calc(100% - 150px);
     }
-    .form__mask{
+    &__mask{
       background-color: white;
       float: left;
       height: 54px;
       padding-right: 10px;
-      .form__mask__image{
+      &__image{
         font-size: 20px;
         line-height: 50px;
       }
@@ -73,7 +73,7 @@
         display: none;
       }
     }
-    .form__button{
+    &__button{
       color: white;
       background-color: blue;
       height: 50px;
